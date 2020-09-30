@@ -34,7 +34,7 @@ public class Salary {
 		Commision = commision;
 	}
 	
-	public double CalculateComision(int NOfSales , int Salary) {
+	public double CalculateComision(int NOfSales) {
 	
 		double result = 0;
 		
@@ -57,6 +57,7 @@ public class Salary {
 		return result ;
 	}
 	
+
 	
 	
 }
